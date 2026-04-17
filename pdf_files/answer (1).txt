@@ -1,0 +1,10 @@
+Answer:
+An operating system (OS) is essential software managing computer hardware and software
+resources, serving as an interface between users and the machine. Key types include Batch (noninteractive jobs), Time-Sharing (multiple users, efficient), Distributed (networked machines)
+Core Types of Operating Systems
+Batch Operating System: Processes jobs in batches without direct user intervention. It is
+suitable for large, repetitive tasks.
+Time-Sharing (Multitasking) OS: Enables multiple users to share a single system
+concurrently, dividing CPU time to provide fast responses for each user.
+
+

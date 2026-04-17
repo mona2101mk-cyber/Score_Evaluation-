@@ -1,0 +1,205 @@
+www.oliveboard.in
+Lesson 2: Operating System
+What is Operating System: An Operating System (OS) is a collection of software that manages software and
+hardware resources and provides services to computer programs and manages the resources (CPU, Main memory,
+Secondary storage and I/O devices) of computer. It is a software that acts as an interface between computer
+hardware and a user.
+
+Type of Operating System OS: Some of the widely used operating System types are mentioned below:
+1. Batch processing operating System: In Batch OS, user doesn’t interact with OS directly. Users submit their
+jobs and an operator groups these jobs into batches. Jobs with similar requirements are grouped in the same batch
+and then these batches are processed by the processor one by one.
+
+2. Multi-programming operating System: In this OS, more than one process can be processed by the processor
+simultaneously. The Scheduler decides which process to run by the processor and this process is known as CPU
+scheduling. The process of switching from one job to other job is known as Context Switching.
+* The main focus is to maximize the processor (CPU) usage.
+
+3. Multi-tasking operating System: Multi-tasking also known as Time Sharing Operating system is a logical
+extension of Multi-programming operating system. It allows users to share the resources simultaneously and in this,
+context switching is performed along with time sharing. The main focus is to minimize the response time.
+
+4. Multi-processing operating System: In multi-processing OS, more than one processor (CPUs) can be used
+within a single computer system.
+
+www.oliveboard.in
+
+www.oliveboard.in
+
+5. Network operating System: Network OS allows users to share resources available on their computer to other
+users and access resources available on other’s computer.
+a) Peer – to – peer: In peer – to – peer, all workstations are considered equal and have same privilege to use the
+resources available on the network.
+
+b) Client/server: In Client/server operating system, all functions and applications are centralized to single dedicated
+system called Server. All other systems (known as Clients) are connected to the dedicated system.
+
+6. Distributed operating System: In Distributed operating system, various independent systems are connected
+with each other using a shared communication network but physically separated where they have their own processor
+and memory. A system can always access the resources that are not available on their system but on other system in
+the network. This type of OS is an advancement of Network operating system and also known as Loosely Coupled
+System.
+
+7. Real Time operating System: Real time operating system (RTOS) are used in applications where the result is
+guaranteed in specified time constraint. These are very fast and quick in response and used in applications where
+large events are to be executed in a short time.
+•
+
+Hard real time OS: In Hard real time OS, the process should be executed within specified time and it can’t
+miss its deadline. Missing the deadline can cause disasters consequences and system will fail. Ex: Anti – lock
+brakes, Flight control system.
+
+•
+
+Soft real time OS: In Soft real time OS, it is not mandatory that an execution must be finished in the
+specified time every time. Ex: Digital camera, telephone switches.
+
+Components of OS: All the user software programs can’t directly access the computer hardware; they need to go
+through OS to access the hardware. Various components of operating system are:
+1. Kernel: Kernel is a central component in the computer’s OS. It is a computer program that has complete control
+over everything of computer system. It is the first program after boot loader that loaded, and its critical code is
+
+www.oliveboard.in
+
+www.oliveboard.in
+loaded in the protected area of the memory called Kernel Space while other application programs are loaded in
+separate area of memory called User space.
+Kernel is a low-level abstraction layer of OS, user uses System calls to interact with the system, system call invokes
+the kernel and then kernel perform the user’s operation.
+
+Based on their design and functions, Kernel is divided mainly into three parts:
+•
+
+Monolithic Kernel: A monolithic kernel performs all the OS instructions in the same address space and
+hence increases the speed.
+
+•
+
+Micro Kernel: A microkernel runs mostly all the processes in User space and hence increases the Modularity.
+
+•
+
+Hybrid Kernel: A hybrid kernel is an extension of Micro kernel with some added functionality of Monolithic
+kernel.
+
+2. Interrupts: An interrupt is an input signal that indicates an event and need the immediate attention of the
+processor. When an interrupt occurs and request is accepted, the processor halt the current execution immediately
+and executes a function called Interrupt handler. After the interrupt handler finishes its activities, the processor
+resumes its normal activities.
+There are mainly two type of Interrupts in operating system:
+•
+
+Software interrupts: Caused by software itself which is usually a program code in the user space. Software
+interrupts are typically called Traps or Exceptions.
+
+•
+
+Hardware interrupts: An electronic signal created and sent to the processor by performing some actions by
+the hardware components are known as Hardware interrupts.
+
+3. Program Execution: OS provides an interface between application software and hardware components. Program
+execution is the process by which a computer executes the instructions of a computer program.
+4. Memory management: It is the process of controlling and handling the primary memory. It is the process of
+partitioning the memory into small blocks and assign these blocks to a running process to optimize the overall system
+performance.
+All the programs must be loaded into the main memory (RAM) for its execution. Sometimes the whole program is
+loaded into the RAM while sometimes a part of the program is loaded when called by the program and this process is
+known as Dynamic Loading.
+Sometimes a running program need another program that is not present in the main memory. So instead, of loading
+all the related programs in the main memory, processor links the related programs to the executing program in the
+main memory, this process is known as Dynamic Linking.
+5. Disk access and file management: The systematic way in which the data is stored in available storage space is
+called File system. File system is the process in which the files are named properly and stored logically in the disk for
+easy storage and fast retrieval.
+6. Device drivers: Hardware devices need a program to communicate with the OS of the computer system. A
+computer program with which the hardware devices such as printer can communicate with the kernel of computer
+system are known as Driver or Device driver.
+
+www.oliveboard.in
+
+www.oliveboard.in
+
+The device drivers can be broadly categorized into three groups:
+•
+
+Character driver: Deals with the character devices that communicate by sending and receiving
+single characters.
+
+•
+
+Block driver: Deals with the devices in that communicates by sending and receiving entire block of data.
+
+•
+
+Network driver: The network driver allows us to connect to an external network by sending and receiving
+data packets.
+
+7. User interface: A user interface is that part of operating system by which a user interacts with the computer
+system and provides platform for Human – computer interaction. There are different types of user interfaces:
+•
+
+Command line interface (CLI) or Character user interface (CUI): It is the oldest user interface, which is
+a text-based user interface which involves the commands types by the user and respond of computer based
+on those commands. Ex: Disk operating system (DOS).
+
+•
+
+Graphical user interface (GUI): GUI is the most attractive way of interaction between user and computer.
+It deals with the graphical images, icons and it allows users to interact with the machine by those images,
+icons and visual indicators. Ex: Windows and Android.
+
+•
+
+Menu driven interface (MDI): A menu driven interface is the simplest and easiest way to communicate
+with the computer system. It deals with the series of screens (menus) where user has to choose one option
+what to do next out of available options in the menu. Ex: Cash machines (ATM), ticket booking machine and
+information kiosk.
+
+Functions of Operating System: Following are some functions of operating system:
+1. Booting: Booting is the start-up sequence of operating system and boot process loads the operating system
+into main memory of the computer system.
+2. Loading and execution of program: A program resides in the secondary memory must be loaded in the
+main memory of computer for execution.
+3. Security: Security refers to integrity, confidentiality and availability of data which of provided by Operating
+system.
+4. Control over system performance: Operating system has complete control over computer system so as to
+improve the performance of the system.
+5. Job accounting: The operating system keeps track of time and resources used by a process and maintain
+this information in a log record.
+6. Acts as an interface between software and user: It coordinate between software and user and assigns
+software such as assembler, interpreter, compiler and other software whenever user need them.
+Some other major important functions of Operating System:
+•
+
+Process management
+
+•
+
+Memory management
+
+•
+
+File management
+
+•
+
+I/O device management
+
+Program: A computer program is lines of codes or collection of instructions that performs a specific task when
+executed. A process is a program in execution, any program written by programmer reside in the hard disk or
+secondary storage of a computer. A processor can execute programs in the main memory, so a program must bring
+into main memory from secondary storage.
+A process in main memory can be divided into four sections:
+•
+
+Stack: A process stack contains temporary data such as functions/methods parameters, return
+value/address, local variables etc.
+
+•
+
+Heap: Heap is an area of main memory that is assigned dynamically at the runtime of process to store
+temporary variables and data.
+
+www.oliveboard.in
+
+
